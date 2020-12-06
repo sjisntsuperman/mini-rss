@@ -1,0 +1,11 @@
+<view>
+  <view bindtap="bindTitleTap">
+      {{title}}
+  </view>
+  <view>
+    author: {{author}}, time: {{time}}
+  </view>
+  <view>
+    {{content}}
+  </view>
+</view>

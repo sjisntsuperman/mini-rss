@@ -1,0 +1,13 @@
+<view wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="idx">
+  <view>
+    <navigator url="/pages/post/post?href={{item.href}}&title={{item.title}}&content={{item.content}}&author={{item.author}}">
+      {{item.title}}
+    </navigator>
+  </view>
+  <view>
+    author: {{item.author}}, time: {{item.time}}
+  </view>
+  <view>
+    {{item.content}}
+  </view>
+</view>
